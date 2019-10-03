@@ -1,10 +1,15 @@
 :root {
   --color-primary: #60d3bc;
+  --color-primary-light: #88ebd7;
+  --color-primary-dark: #33baa0;
   --color-secondary: #9be8ad;
+  --color-secondary-light: #c2facf;
+  --color-secondary-dark: #78dd90;
   --color-neutral: #5f6772;
   --color-neutral-light: #dBdfe5;
   --color-neutral-dark: #2e343e;
-  --color-accent-yellow: #fff196;
+  --color-background: #ffffff;
+  --color-accent-orange: #f7c79e;
 
   --font-primary: "Lato", sans-serif;
   --font-secondary: "Roboto", sans-serif;
@@ -12,7 +17,7 @@
 
 html {
   font-family: var(--font-primary);
-  background-color: var(--color-neutral-light);
+  background-color: var(--color-background);
 }
 
 h1 {
