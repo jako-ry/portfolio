@@ -10,7 +10,7 @@ patterns:
     fields:
       - name: text
         type: string
-        example: "Buy an Egg"
+        example: "Learn More"
   ghost:
     title: "Ghost"
     description: |
@@ -18,4 +18,9 @@ patterns:
     fields:
       - name: text
         type: string
-        example: "Find your Egg"
+        example: "Learn More"
+  hamburger:
+    title: "Hamburger"
+    description: |
+      The hamburger button is for the mobile version for the navigation bar.
+    width: "12em"

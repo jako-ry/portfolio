@@ -24,3 +24,14 @@
   border-color: var(--color-primary);
   color: var(--color-accent-white);
 }
+
+.btn-hamburger {
+  background-color: var(--color-primary);
+  border-color: var(--color-accent-white);
+  border-radius: 0;
+}
+
+.btn-hamburger:hover {
+  background-color: var(--color-ccent-orange);
+  border-color: var(--color-accent-white);
+}
