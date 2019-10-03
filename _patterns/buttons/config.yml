@@ -23,4 +23,15 @@ patterns:
     title: "Hamburger"
     description: |
       The hamburger button is for the mobile version for the navigation bar.
-    width: "12em"
+  close:
+    title: "Close"
+    description: |
+      The close button is for the mobile version for the navigation bar after clicking.
+  instagram:
+    title: "Instagram"
+    description: |
+      The Instagram button is to link to Instagram.
+  github:
+    title: "Github"
+    description: |
+      The Github button is to link to Github.

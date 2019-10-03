@@ -26,12 +26,49 @@
 }
 
 .btn-hamburger {
-  background-color: var(--color-primary);
-  border-color: var(--color-accent-white);
-  border-radius: 0;
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--color-primary);
 }
 
 .btn-hamburger:hover {
-  background-color: var(--color-ccent-orange);
-  border-color: var(--color-accent-white);
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--color-accent-orange);
+}
+
+.btn-close {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--color-primary);
+}
+
+.btn-close:hover {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--color-accent-orange);
+}
+
+.btn-instagram {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--color-primary);
+}
+
+.btn-instagram:hover {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--color-accent-orange);
+}
+
+.btn-github {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--color-primary);
+}
+
+.btn-github:hover {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--color-accent-orange);
 }
