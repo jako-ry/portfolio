@@ -1,0 +1,21 @@
+title: "Buttons"
+description: |
+  Buttons should only be used when there are obvious actions that is required. They are primarily for call-to-actions for a screen.
+
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      They are the default buttons. They should be used on primarily light backgrounds.
+    fields:
+      - name: text
+        type: string
+        example: "Buy an Egg"
+  ghost:
+    title: "Ghost"
+    description: |
+      The ghost buttons are for call-to-actions on images and for optional actions.
+    fields:
+      - name: text
+        type: string
+        example: "Find your Egg"

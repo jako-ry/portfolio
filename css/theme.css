@@ -8,7 +8,7 @@
   --color-neutral: #5f6772;
   --color-neutral-light: #dBdfe5;
   --color-neutral-dark: #2e343e;
-  --color-background: #ffffff;
+  --color-accent-white: #ffffff;
   --color-accent-orange: #f7c79e;
 
   --font-primary: "Lato", sans-serif;
@@ -17,7 +17,7 @@
 
 html {
   font-family: var(--font-primary);
-  background-color: var(--color-background);
+  background-color: var(--color-accent-white);
 }
 
 h1 {
