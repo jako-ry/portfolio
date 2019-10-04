@@ -1,0 +1,19 @@
+title: "Cards"
+description: |
+  Cards should primarily be used for content that has a related image.
+
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      They are the default cards. They should only be used for portfolio pieces.
+    fields:
+      - name: heading
+        type: string
+        example: "Title of Work"
+      - name: text
+        type: string
+        example: "Type of Work"
+      - name: image
+        type: string
+        example: "sample.svg"
