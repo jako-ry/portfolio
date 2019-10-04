@@ -1,5 +1,20 @@
 .card {
   transition: all .2s linear;
-  min-height: 100%;
+}
+
+.white {
+  color: #fff;
+}
+
+.hover {
+  transition: all .2s linear;
+}
+
+.hover-card:hover .hover {
+  transform: scale(1.1);
+}
+
+.hover-text {
   min-width: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
 }

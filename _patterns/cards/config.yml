@@ -16,4 +16,18 @@ patterns:
         example: "Type of Work"
       - name: image
         type: string
+        example: "sample2.png"
+  process:
+    title: "Process"
+    description: |
+      They are the process cards. They should only be used to explain the process of a project.
+    fields:
+      - name: heading
+        type: string
+        example: "Phase 1"
+      - name: text
+        type: string
+        example: "Explanation"
+      - name: image
+        type: string
         example: "sample.svg"
