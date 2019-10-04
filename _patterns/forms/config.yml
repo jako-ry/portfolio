@@ -1,0 +1,43 @@
+title: "Forms"
+description: |
+  Forms can be used for a variety of settings, however, their primary use is for checkout and login.
+
+patterns:
+  text:
+    title: "Text"
+    description: |
+      This is the basic form. It is used for short one-lined text inputs like names, addresses, etc.
+    fields:
+      - name: label
+        type: string
+        example: "Text"
+      - name: error
+        type: string
+        example: "You need to enter some text"
+  email:
+    title: "Email"
+    description: |
+      This should only be used when an email is required.
+    fields:
+      - name: error
+        type: string
+        example: "Please enter a valid email address"
+  text-area:
+    title: "Text Area"
+    description: |
+      This is for large amount of text and are to be used for filling out reviews or leaving paragraph responses.
+    fields:
+      - name: label
+        type: string
+        example: "Text Area"
+      - name: placeholder
+        type: string
+        example: "Write your text here."
+  submit:
+    title: "Submit"
+    description: |
+      This button is specifically for submitting forms and should only be used for forms.
+    fields:
+      - name: submit
+        type: string
+        example: "Submit"

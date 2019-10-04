@@ -1,0 +1,22 @@
+title: "Sections"
+description: |
+  Sections can be used to organize content together and separate them.
+
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      The basic section can be used anywhere to share information.
+    fields:
+      - name: heading
+        type: string
+        example: "Title of Work"
+      - name: subheading
+        type: string
+        example: "Type of Work"
+      - name: text
+        type: string
+        example: "Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation."
+      - name: image
+        type: string
+        example: "sample.svg"

@@ -1,0 +1,37 @@
+input {
+  border-width: thin;
+  border-radius: 6px;
+  border-color: var(--color-secondary);
+}
+
+input:focus {
+  border-width: medium;
+  border-color: var(--color-secondary-dark);
+}
+
+textarea,
+select {
+  border-width: thin;
+  border-radius: 6px;
+  border-color: var(--color-secondary);
+}
+
+textarea:focus,
+select:focus {
+  border-width: medium;
+  border-color: var(--color-secondary-dark);
+}
+
+.error-message {
+  display: none;
+  background-color: var(--color-primary-dark);
+  color: var(--color-neutral-light);
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message,
+.is-validated:invalid + .error-message,
+.is-validated:invalid + label + .error-message {
+  display: block;
+}
