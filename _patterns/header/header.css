@@ -1,0 +1,16 @@
+.side-nav {
+  height: 100vh;
+  background-color: var(--color-neutral-dark);
+}
+
+img {
+  width: 50%;
+}
+
+a:hover {
+  color: var(--color-accent-orange);
+}
+
+p {
+  color: #fff;
+}

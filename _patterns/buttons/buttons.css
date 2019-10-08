@@ -16,7 +16,7 @@
   background-color: transparent;
   border-color: var(--color-primary);
   color: var(--color-primary);
-  border-width: 4px;
+  border-width: 3px;
 }
 
 .btn-ghost:hover {

@@ -20,3 +20,20 @@ patterns:
       - name: image
         type: string
         example: "sample.svg"
+  about:
+    title: "About"
+    description: |
+      The about section should only be used for information about something.
+    fields:
+      - name: heading
+        type: string
+        example: "About"
+      - name: subheading
+        type: string
+        example: "ME"
+      - name: text
+        type: string
+        example: "Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation."
+      - name: image
+        type: string
+        example: "sample.svg"
