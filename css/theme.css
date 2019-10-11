@@ -6,7 +6,7 @@
   --color-secondary-light: #c2facf;
   --color-secondary-dark: #78dd90;
   --color-neutral: #5f6772;
-  --color-neutral-light: #dBdfe5;
+  --color-neutral-light: #e8f1ee;
   --color-neutral-dark: #2e343e;
   --color-accent-white: #ffffff;
   --color-accent-orange: #f7c79e;
@@ -84,4 +84,16 @@ strong {
 
 em {
   color: var(--color-primary);
+}
+
+.dark {
+  background-color: var(--color-neutral-dark);
+}
+
+.light {
+  background-color: var(--color-accent-white);
+}
+
+.colour {
+  background-color: var(--color-neutral-light);
 }

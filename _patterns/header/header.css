@@ -1,16 +1,14 @@
 .side-nav {
-  height: 100vh;
-  background-color: var(--color-neutral-dark);
+  display: none;
 }
 
 .full-nav {
   height: 100vh;
   width: 100vw;
   background-color: var(--color-neutral-dark);
-}
-
-.dark {
-  background-color: var(--color-neutral-dark);
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .half {
@@ -56,6 +54,9 @@ label.nav-label::before {
 
 .nav-close {
   display: none;
+  position: fixed;
+  top: 20px;
+  right: 20px;
   z-index: 3;
 }
 
@@ -65,4 +66,16 @@ label.nav-label::before {
 
 .nav-check:checked ~ .nav-label .nav-close {
   display: block;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .side-nav {
+    display: block;
+    height: 100vh;
+    background-color: var(--color-neutral-dark);
+    width: 25%;
+    float: left;
+  }
+
 }
