@@ -1,3 +1,17 @@
 title: "Header"
 description: |
   The header contains the main navigation and should be used on all pages so the user can navigate easily.
+
+patterns:
+  header:
+    title: "Header"
+    description: |
+      This is the default header for medium to large size screens.
+  small-header:
+    title: "Small Header"
+    description: |
+      This is the default header for small size screens.
+  small-navigation:
+    title: "Small Navigation"
+    description: |
+      This is the navigation list for small size screens.
