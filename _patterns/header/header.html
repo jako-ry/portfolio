@@ -7,7 +7,7 @@
 
   <div class="side-nav">
     <div class="gutter pad-t pad-b-1-2">
-      <a href="#">
+      <a href="/index/">
         <img class="half" src="/images/logo.svg" alt="jack huynh logo">
       </a>
     </div>
@@ -58,5 +58,40 @@
         </li>
       </ul>
     </nav>
+  </div>
+
+  <div class="unit xs-1 m-0">
+    <div class="dark">
+      <div>
+        <a href="#">
+          <div class="island pin-lt">
+            <img class="small" src="/images/logo.svg" alt="jack huynh logo">
+          </div>
+        </a>
+        <div class="island gutter-2">
+          <h1 class="gutter mega push-0">
+            jack huynh
+          </h1>
+        </div>
+      </div>
+      <div class="pin-rt">
+        <input type="checkbox" class="nav-check" id="nav-check">
+        <label class="nav-label island" for="nav-check">
+          <i class="icon nav-open i-24">
+            <svg>
+              <use xlink:href="/images/icons.svg#hamburger"></use>
+            </svg>
+          </i>
+          <i class="icon nav-close i-24">
+            <svg>
+              <use xlink:href="/images/icons.svg#close"></use>
+            </svg>
+          </i>
+        </label>
+        <nav role="navigation" id="nav" class="nav">
+          {% pattern header/small-navigation %}
+        </nav>
+      </div>
+    </div>
   </div>
 </header>

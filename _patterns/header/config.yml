@@ -6,11 +6,7 @@ patterns:
   header:
     title: "Header"
     description: |
-      This is the default header for medium to large size screens.
-  small-header:
-    title: "Small Header"
-    description: |
-      This is the default header for small size screens.
+      This is the default header for all size screens.
   small-navigation:
     title: "Small Navigation"
     description: |
