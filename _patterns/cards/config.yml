@@ -17,6 +17,9 @@ patterns:
       - name: image
         type: string
         example: "sample2.png"
+      - name: url
+        type: url
+        example: "/#/"
   process:
     title: "Process"
     description: |
