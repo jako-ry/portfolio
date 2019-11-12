@@ -31,6 +31,9 @@ patterns:
       - name: text
         type: string
         example: "Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation."
+      - name: text2
+        type: string
+        example: "Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation. Explanation."
       - name: image
         type: string
         example: "sample.svg"
