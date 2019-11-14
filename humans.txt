@@ -1,0 +1,25 @@
+# humanstxt.org
+
+# TEAM
+
+Jack Huynh
+
+Designer & Developer: Jack Huynh <hi@jackhuynh.ca>
+Site: http://jackhuynh.ca
+GitHub: https://github.com/jako-ry
+Location: Ottawa, Canada
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Atom
+- Git + GitHub
+- Jekyll
+- Markdown
+
+## Hosting
+
+- Netlify

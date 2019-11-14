@@ -1,0 +1,6 @@
+# robotstxt.org
+
+Sitemap: https://confident-hypatia-6e5d26.netlify.com/sitemap.xml
+
+User-Agent: *
+Disallow:
