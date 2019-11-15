@@ -20,6 +20,9 @@ patterns:
       - name: image
         type: string
         example: "sample.svg"
+      - name: alt
+        type: string
+        example: "sample"
   about:
     title: "About"
     description: |
