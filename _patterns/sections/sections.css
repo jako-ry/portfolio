@@ -1,3 +1,7 @@
-.about {
-  height: 100vh;
+@media only screen and (min-width: 60em) {
+
+  .about {
+    height: 100vh;
+  }
+
 }
