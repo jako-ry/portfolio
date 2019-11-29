@@ -12,7 +12,6 @@
   --color-accent-orange: #f7c79e;
 
   --font-primary: "Lato", sans-serif;
-  --font-secondary: "Roboto", sans-serif;
 }
 
 html {
@@ -21,22 +20,22 @@ html {
 }
 
 h1 {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   color: var(--color-primary-dark);
 }
 
 h2 {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   color: var(--color-primary);
 }
 
 h3 {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   color: var(--color-secondary-dark);
 }
 
 h4 {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
 }
 
 h5 {
