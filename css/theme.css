@@ -96,3 +96,7 @@ em {
 .colour {
   background-color: var(--color-neutral-light);
 }
+
+.full {
+  height: 100vh;
+}
